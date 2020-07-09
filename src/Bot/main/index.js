@@ -10,6 +10,13 @@ bot.on('ready', () => {
 
 bot.on('message', msg => {
     let args = msg.content.substring(process.env.PREFIX.length).split(" ");
+
+    switch (args[0]) {
+        case 'hey-gir':
+            if (!args[1]) {
+                msg.reply("what you rat?");
+            }
+    }
 })
 
 
