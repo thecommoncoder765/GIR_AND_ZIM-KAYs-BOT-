@@ -8,4 +8,9 @@ bot.on('ready', () => {
 })
 
 
+bot.on('message', msg => {
+    let args = msg.content.substring(process.env.PREFIX.length).split(" ");
+})
+
+
 bot.login(process.env.TOKEN);
