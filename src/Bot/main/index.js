@@ -14,8 +14,15 @@ bot.on('message', msg => {
     switch (args[0]) {
         case 'hey-gir':
             if (!args[1]) {
-                msg.reply("what you rat?");
+                msg.reply("what, you rat?");
             }
+
+            if (args[1] === 'am-i-stupid?') {
+                msg.reply('yes in fact, you are.');
+            } else {
+
+            }
+
     }
 })
 
