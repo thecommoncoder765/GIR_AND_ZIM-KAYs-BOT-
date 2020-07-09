@@ -8,4 +8,4 @@ bot.on('ready', () => {
 })
 
 
-bot.on()
+bot.login(process.env.TOKEN)
