@@ -1,0 +1,1 @@
+worker: node ./src/Bot/main/index.js
