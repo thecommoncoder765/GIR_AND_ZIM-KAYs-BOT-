@@ -19,10 +19,7 @@ bot.on('message', msg => {
 
             if (args[1] === 'am-i-stupid?') {
                 msg.reply('yes in fact, you are.');
-            } else {
-
             }
-
     }
 })
 
